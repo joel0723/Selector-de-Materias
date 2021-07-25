@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccion de Materias</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/plugin/toastr/toastr.min.css">
+
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 " id="content-conteiner">
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb margen-arriba-1">
+                 <li class="breadcrumb-item active" aria-current="page">Datos Personales</li>
+            </ol>
+        </nav>
+
+
+            <div class="card">
+                <div class="card-header text-white bg-primary text-center"><h3 class="text-center"></h3>Seleccion de Materias</div>
+                <div class="card-body">
+
+                    <div class="card-title"><h3 class="text-center">Complete toda la informacion</h3></div>
+
+                    <div class="margen-top-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+
+                    <div class="margen-top-3">
+                        <label for="provincia" class="form-label">Provincia</label>
+                        <input type="text" class="form-control" id="provincia">
+                    </div>
+
+                    <div class="margen-top-3">
+                        <label for="ciudad" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="ciudad">
+                    </div>
+
+                    <div class="margen-top-3">
+                        <label for="sector" class="form-label">Sector</label>
+                        <input type="text" class="form-control" id="sector">
+                    </div>
+
+                    <div class="margen-top-3">
+                        <label for="calle" class="form-label">Calle</label>
+                        <input type="text" class="form-control" id="calle">
+                    </div>
+
+                    <div class="margen-top-3">
+                        <label for="tipo-carrera" class="form-label">Carrera</label>
+                        <select class="form-select" id="tipo-carrera">
+                        <option value="">Seleccione una opcion</option>
+                        <option value="software">Software </option>
+                        <option value="redes">Redes</option>
+                        <option value="multimedia">Multimedia</option>
+                       </select>
+                    </div>
+                  
+
+
+                    <div class="margen-top-3">
+                        <button class="btn btn-success float-end margen-izq-2 margen-arriba-1" id="btn-ready">Registar</button>
+                        <button class="btn btn-danger float-end margen-arriba-1" id="btn-clear">Limpiar</button>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row" id="contact-container">
+
+         
+
+    </div>
+
+
+
+    
+    <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
+
+    <script src="assets/js/plugin/toastr/toastr.min.js"></script>
+
+    <script src="assets/js/index/indexJquery.js"></script>
+</body>
+</html>
